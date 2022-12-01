@@ -13,8 +13,7 @@ class CourseListView(ModelViewSet):
     queryset=Course.objects.all()
     print("queryset","hii","fgg")
     serializer_class=CourseSerializer
-    
-    
+    print(serializer_class)
     
     
     
