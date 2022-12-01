@@ -25,5 +25,5 @@ router=DefaultRouter()
 router.register('courses',views.CourseListView,basename='course')
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/',include(router.urls))
+    path('api1/',include(router.urls))
 ]
