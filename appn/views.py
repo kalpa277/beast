@@ -11,7 +11,7 @@ from django.http import Http404
 from rest_framework import mixins,generics
 class CourseListView(ModelViewSet):
     queryset=Course.objects.all()
-    print("queryset","queryset")
+    print("queryset","hii")
     serializer_class=CourseSerializer
     
     
