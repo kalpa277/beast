@@ -10,7 +10,7 @@ from django.http import Http404
 #mixins
 from rest_framework import mixins,generics
 class CourseListView(ModelViewSet):
-    queryset=Course.objects.all()
+    queryset=Course.objects.all
     print("queryset","queryset")
     serializer_class=CourseSerializer
     
